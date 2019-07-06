@@ -6,7 +6,7 @@ target 'VimIdeDemo' do
   use_frameworks!
 
   # Pods for VimIdeDemo
-  pod "PromiseKit/CorePromise", "~> 6.8"
+  pod "PromiseKit", "~> 6.8"
 
   target 'VimIdeDemoTests' do
     inherit! :search_paths
