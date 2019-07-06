@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF885C722D0FBC400B01CE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF885C622D0FBC400B01CE1 /* AppDelegate.m */; };
+		3DF885CA22D0FBC400B01CE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF885C922D0FBC400B01CE1 /* ViewController.m */; };
+		3DF885CD22D0FBC400B01CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF885CB22D0FBC400B01CE1 /* Main.storyboard */; };
+		3DF885CF22D0FBC500B01CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF885CE22D0FBC500B01CE1 /* Assets.xcassets */; };
+		3DF885D222D0FBC500B01CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF885D022D0FBC500B01CE1 /* LaunchScreen.storyboard */; };
+		3DF885D522D0FBC500B01CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF885D422D0FBC500B01CE1 /* main.m */; };
+		3DF885DF22D0FBC600B01CE1 /* VimIdeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF885DE22D0FBC600B01CE1 /* VimIdeDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF885DB22D0FBC600B01CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF885BA22D0FBC400B01CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF885C122D0FBC400B01CE1;
+			remoteInfo = VimIdeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF885C222D0FBC400B01CE1 /* VimIdeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimIdeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF885C522D0FBC400B01CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DF885C622D0FBC400B01CE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DF885C822D0FBC400B01CE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DF885C922D0FBC400B01CE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DF885CC22D0FBC400B01CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF885CE22D0FBC500B01CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF885D122D0FBC500B01CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF885D322D0FBC500B01CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF885D422D0FBC500B01CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF885DA22D0FBC600B01CE1 /* VimIdeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimIdeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF885DE22D0FBC600B01CE1 /* VimIdeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimIdeDemoTests.m; sourceTree = "<group>"; };
+		3DF885E022D0FBC600B01CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF885BF22D0FBC400B01CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF885D722D0FBC600B01CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF885B922D0FBC400B01CE1 = {
+			isa = PBXGroup;
+			children = (
+				3DF885C422D0FBC400B01CE1 /* VimIdeDemo */,
+				3DF885DD22D0FBC600B01CE1 /* VimIdeDemoTests */,
+				3DF885C322D0FBC400B01CE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF885C322D0FBC400B01CE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF885C222D0FBC400B01CE1 /* VimIdeDemo.app */,
+				3DF885DA22D0FBC600B01CE1 /* VimIdeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF885C422D0FBC400B01CE1 /* VimIdeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DF885C522D0FBC400B01CE1 /* AppDelegate.h */,
+				3DF885C622D0FBC400B01CE1 /* AppDelegate.m */,
+				3DF885C822D0FBC400B01CE1 /* ViewController.h */,
+				3DF885C922D0FBC400B01CE1 /* ViewController.m */,
+				3DF885CB22D0FBC400B01CE1 /* Main.storyboard */,
+				3DF885CE22D0FBC500B01CE1 /* Assets.xcassets */,
+				3DF885D022D0FBC500B01CE1 /* LaunchScreen.storyboard */,
+				3DF885D322D0FBC500B01CE1 /* Info.plist */,
+				3DF885D422D0FBC500B01CE1 /* main.m */,
+			);
+			path = VimIdeDemo;
+			sourceTree = "<group>";
+		};
+		3DF885DD22D0FBC600B01CE1 /* VimIdeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF885DE22D0FBC600B01CE1 /* VimIdeDemoTests.m */,
+				3DF885E022D0FBC600B01CE1 /* Info.plist */,
+			);
+			path = VimIdeDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF885C122D0FBC400B01CE1 /* VimIdeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF885E322D0FBC600B01CE1 /* Build configuration list for PBXNativeTarget "VimIdeDemo" */;
+			buildPhases = (
+				3DF885BE22D0FBC400B01CE1 /* Sources */,
+				3DF885BF22D0FBC400B01CE1 /* Frameworks */,
+				3DF885C022D0FBC400B01CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimIdeDemo;
+			productName = VimIdeDemo;
+			productReference = 3DF885C222D0FBC400B01CE1 /* VimIdeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF885D922D0FBC600B01CE1 /* VimIdeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF885E622D0FBC600B01CE1 /* Build configuration list for PBXNativeTarget "VimIdeDemoTests" */;
+			buildPhases = (
+				3DF885D622D0FBC600B01CE1 /* Sources */,
+				3DF885D722D0FBC600B01CE1 /* Frameworks */,
+				3DF885D822D0FBC600B01CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF885DC22D0FBC600B01CE1 /* PBXTargetDependency */,
+			);
+			name = VimIdeDemoTests;
+			productName = VimIdeDemoTests;
+			productReference = 3DF885DA22D0FBC600B01CE1 /* VimIdeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF885BA22D0FBC400B01CE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ws2356;
+				TargetAttributes = {
+					3DF885C122D0FBC400B01CE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3DF885D922D0FBC600B01CE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3DF885C122D0FBC400B01CE1;
+					};
+				};
+			};
+			buildConfigurationList = 3DF885BD22D0FBC400B01CE1 /* Build configuration list for PBXProject "VimIdeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF885B922D0FBC400B01CE1;
+			productRefGroup = 3DF885C322D0FBC400B01CE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF885C122D0FBC400B01CE1 /* VimIdeDemo */,
+				3DF885D922D0FBC600B01CE1 /* VimIdeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF885C022D0FBC400B01CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF885D222D0FBC500B01CE1 /* LaunchScreen.storyboard in Resources */,
+				3DF885CF22D0FBC500B01CE1 /* Assets.xcassets in Resources */,
+				3DF885CD22D0FBC400B01CE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF885D822D0FBC600B01CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF885BE22D0FBC400B01CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF885CA22D0FBC400B01CE1 /* ViewController.m in Sources */,
+				3DF885D522D0FBC500B01CE1 /* main.m in Sources */,
+				3DF885C722D0FBC400B01CE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF885D622D0FBC600B01CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF885DF22D0FBC600B01CE1 /* VimIdeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF885DC22D0FBC600B01CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF885C122D0FBC400B01CE1 /* VimIdeDemo */;
+			targetProxy = 3DF885DB22D0FBC600B01CE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF885CB22D0FBC400B01CE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF885CC22D0FBC400B01CE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF885D022D0FBC500B01CE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF885D122D0FBC500B01CE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF885E122D0FBC600B01CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DF885E222D0FBC600B01CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF885E422D0FBC600B01CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M863E7K5E6;
+				INFOPLIST_FILE = VimIdeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.ios.VimIdeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF885E522D0FBC600B01CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M863E7K5E6;
+				INFOPLIST_FILE = VimIdeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.ios.VimIdeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DF885E722D0FBC600B01CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M863E7K5E6;
+				INFOPLIST_FILE = VimIdeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.ios.VimIdeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimIdeDemo.app/VimIdeDemo";
+			};
+			name = Debug;
+		};
+		3DF885E822D0FBC600B01CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M863E7K5E6;
+				INFOPLIST_FILE = VimIdeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.ios.VimIdeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimIdeDemo.app/VimIdeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF885BD22D0FBC400B01CE1 /* Build configuration list for PBXProject "VimIdeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF885E122D0FBC600B01CE1 /* Debug */,
+				3DF885E222D0FBC600B01CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF885E322D0FBC600B01CE1 /* Build configuration list for PBXNativeTarget "VimIdeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF885E422D0FBC600B01CE1 /* Debug */,
+				3DF885E522D0FBC600B01CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF885E622D0FBC600B01CE1 /* Build configuration list for PBXNativeTarget "VimIdeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF885E722D0FBC600B01CE1 /* Debug */,
+				3DF885E822D0FBC600B01CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF885BA22D0FBC400B01CE1 /* Project object */;
+}
