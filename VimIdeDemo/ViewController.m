@@ -6,7 +6,7 @@
 //  Copyright © 2019 ws2356. All rights reserved.
 //
 
-@import PromiseKit;
+#import <NSURLSession+AnyPromise.h>
 #import "ViewController.h"
 
 NSString *API_STR = @"https://www.smartstudy.com/api/product/list?discountPrice=1&allPromotions=1&updateCache=1&scope=4&ids=2712,2730,2732";
