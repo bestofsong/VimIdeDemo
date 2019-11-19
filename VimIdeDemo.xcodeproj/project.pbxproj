@@ -463,9 +463,9 @@
 			baseConfigurationReference = 4E2936A2305747B8C8560F53 /* Pods-VimIdeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMPILER_INDEX_STORE_ENABLE = NO;
+				COMPILER_INDEX_STORE_ENABLE = Default;
 				DEVELOPMENT_TEAM = M863E7K5E6;
 				INFOPLIST_FILE = VimIdeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,9 +483,9 @@
 			baseConfigurationReference = 57B1ABCEB0F040D1A81FE6E7 /* Pods-VimIdeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMPILER_INDEX_STORE_ENABLE = NO;
+				COMPILER_INDEX_STORE_ENABLE = Default;
 				DEVELOPMENT_TEAM = M863E7K5E6;
 				INFOPLIST_FILE = VimIdeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
